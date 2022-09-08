@@ -1,0 +1,88 @@
+{
+  "editor.rulers": [80, 120],
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 1.2,
+  "editor.smoothScrolling": true,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.maxColumn": 120,
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "bounded",
+  "[markdown]": {
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "bounded",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "vim.easymotion": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.showMarksInGutter": true,
+  "vim.sneak": true,
+  "vim.sneakReplacesF": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.leader": "<Space>",
+  "vim.useSystemClipboard": true,
+  "vim.textwidth": 80,
+  "explorer.compactFolders": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":", "w"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "files.associations": {
+    "*.tf": "terraform"
+  },
+  "vim.foldfix": true,
+  "explorer.confirmDelete": false,
+  "python.defaultInterpreterPath": "C:/Python310/python.exe",
+  "python.languageServer": "Pylance",
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "textMateRules": [
+        {
+          "scope": ["comment", "punctuation.definition.comment"],
+          "settings": {
+            "foreground": "#ffffff",
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  }
+}
